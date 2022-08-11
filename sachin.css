@@ -1,0 +1,83 @@
+body{
+    background: url(./image/stadium.jpg)
+
+}
+body{
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#one{
+   margin: 10px;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    top: 0px;
+    position: sticky;
+    margin: 0px;
+}
+
+p{
+    color: antiquewhite;
+    font-family: 'Square Peg', cursive;
+    background:url(./image/11005-sachin-tendulkar.webp)
+}
+h2{
+    background-color: rgb(184, 206, 192);
+}
+
+.navbar {
+    width: 100%;
+    background-color: #555;
+    overflow: auto;
+  }
+
+  .navbar a {
+    float: left;
+    text-align: center;
+    padding: 12px;
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+  }
+
+  .navbar a:hover {
+    background-color: #000;
+  }
+
+  .active {
+    background-color: #377ff3;
+  }
+
+  @media screen and (max-width: 500px) {
+    .navbar a {
+      float: none;
+      display: block;
+    }
+  }
+
+  table{
+    background-color:rgba(255, 0, 0, 0.315);
+    width: 35%;
+  }
+  a:link {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  a:visited {
+    color: pink;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  a:hover {
+    color: rgb(255, 225, 0);
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+
